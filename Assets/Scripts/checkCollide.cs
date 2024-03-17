@@ -80,7 +80,7 @@ public class checkCollide : MonoBehaviour
             {
                 foodAcquired = true;
 
-
+                zeroText();
                 StopAllCoroutines();
                 dialoguePanelFood.SetActive(true);
 
@@ -121,6 +121,7 @@ public class checkCollide : MonoBehaviour
                 }
                 else
                 {
+                    zeroText();
                     StopAllCoroutines();
                     dialoguePanel.SetActive(true);
 
